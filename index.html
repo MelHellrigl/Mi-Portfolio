@@ -27,13 +27,17 @@
         <li><a href="#abilities">Habilidades</a></li>
         <li><a href="#education">Educación</a></li>
         <li><a href="#portfolio">Proyectos</a></li>
-        <li class="contacto"><a href="#contact">Contacto</a></li>
+        <li><a href="#contact">Contacto</a></li>
       </ul>
       <div class="bx bx-menu" id="menu-icon"></div>
     </header>
 
     <!-- SECCION INICIO - DISEÑO-->
     <section class="home" id="home">
+      <div class="home-img">
+        <img src="img/yoSinFondo.png" />
+      </div>
+      <div class="overlay"></div>
       <div class="home-text">
         <div class="slide">
           <span class="one">Hola! Soy</span>
@@ -46,8 +50,8 @@
           primera lluvia de ideas hasta el producto final.
         </p>
         <div class="button">
-          <!-- <a href="#" class="btn">Contáctame</a> -->
-          <a href="#" class="btn2"
+          <!-- <a href="#contact" class="btn">Contáctame</a> -->
+          <a href="./pdf/CV-Hellrigl-Melissa.pdf" download="CV-Hellrigl-Melissa" class="btn2"
             ><span><i class="bx bx-cloud-download"></i></span>Descargar CV</a
           >
         </div>
@@ -57,7 +61,7 @@
     <!-- SECCION SOBRE MI - DISEÑO-->
     <section class="about" id="about">
       <div class="about-img">
-        <img src="img/IMG_20220519_183249-removebg-preview.png" />
+        <img src="img/yo.jpg" />
       </div>
       <div class="about-text">
         <h2>Sobre <span>mí</span>:</h2>
@@ -75,16 +79,70 @@
     <!-- SECCION MI STACK - DISEÑO-->
     <section class="services" id="abilities">
       <div class="main-text">
-        <p>En lo que soy experta en</p>
-        <h2><span>mis </span>servicios</h2>
+        <!-- <p>Te presento</p> -->
+        <h2>Mi <span>Stack </span>de tecnologías</h2>
       </div>
       <div class="services-content">
         <div class="box">
+          <h3>Aprendidos</h3>
           <div class="s-icons">
-            <i class="bx bx-mobile-alt"></i>
-            <h3>Web Design</h3>
-            <p>Experiencia en diseño de paginas webs</p>
-            <a href="#" class="read">Leer Más</a>
+            <img src="img/react.png" alt="ReactJs" />
+            <img src="img/redux.png" alt="Redux" />
+            <img src="img/javaScript.png" alt="JavaScript" />
+            <img src="img/html.png" alt="Html" />
+            <img src="img/css.png" alt="Css" />
+            <img src="img/figma.png" alt="Figma" />
+            <img src="img/canva.png" alt="canva" />
+            <img src="img/chakraUi.png" alt="chakraUi" />
+            <img src="img/node.png" alt="NodeJs" />
+            <img src="img/postgresql.png" alt="postgresql" />
+            <img src="img/sequelize.png" alt="sequelize" />
+            <img src="img/expressjs.png" alt="expressJs" />
+            <img src="img/git.png" alt="git" />
+            <img src="img/github.png" alt="github" />
+            <img src="img/Trello.png" alt="Trello" />
+            <img src="img/scrum.png" alt="scrum" />
+          </div>
+          <br />
+          <h3>Estudiando</h3>
+          <div class="s-icons">
+            <img src="img/angular.png" alt="angular" />
+            <img src="img/java.png" alt="java" />
+            <img src="img/reactNative.png" alt="reactNative" />
+            <img src="img/mongodb.png" alt="mongodb" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION MI Educación - DISEÑO-->
+    <section class="education" id="education">
+      <div class="main-text">
+        <h2>Mi<span> Educación</span></h2>
+      </div>
+      <div class="education-content">
+        <div class="box">
+          <div>
+            <img class="logo" src="img/logoArg-programa1.png" />
+            <h3>Argentina Programa</h3>
+            <p>Desarrolladora Web Full Stack (Cursando)</p>
+            <a href="#" class="read">2022</a>
+          </div>
+        </div>
+        <div class="box">
+          <div>
+            <img class="logo" src="img/logoHenry1.png" />
+            <h3>Henry Bootcamp</h3>
+            <p>Desarrolladora Web Full Stack (Finalizado)</p>
+            <a href="#" class="read">2022</a>
+          </div>
+        </div>
+        <div class="box">
+          <div>
+            <img class="logo" src="img/logoUnam1.png" />
+            <h3>Universidad Nacional Misiones</h3>
+            <p>Secretaria Ejecutiva Universitaria (Finalizado)</p>
+            <a href="#" class="read">2020 - 2022</a>
           </div>
         </div>
       </div>
@@ -93,19 +151,24 @@
     <!-- SECCION MI PORTFOLIO - DISEÑO-->
     <section class="portfolio" id="portfolio">
       <div class="main-text">
-        <p>Portfolio</p>
+        <!-- <p>Portfolio</p> -->
         <h2><span>Proyectos </span>recientes</h2>
       </div>
       <div class="portfolio-content">
         <div class="row">
-          <img src="img/lookhouse.png" />
+          <img src="img/landingPF.png" />
           <div class="layer">
             <h5>LookHouse</h5>
             <p>
-              Aplicación para alquiler de inmuebles a dueño directo, con login autentificado, perfil
-              de usuario y administrador, servicio de mails y pasarela de pagos.
+              Aplicación para alquiler de inmuebles a dueño directo, con login, perfil de usuario y
+              administrador, servicio de mails y pasarela de pagos.
             </p>
-            <a href="#"><i class="bx bx-link-external"></i></a>
+            <div class="buttons">
+              <a href="https://github.com/NicoSeper89/Proyecto-Final-"
+                ><i class="bx bxl-github"></i
+              ></a>
+              <a href="https://look-house.vercel.app/"><i class="bx bx-link-external"></i></a>
+            </div>
           </div>
         </div>
         <div class="row">
@@ -113,10 +176,15 @@
           <div class="layer">
             <h5>Henry Food</h5>
             <p>
-              Diseño y desarrollo una App de recetas de comida que incluye: búsquedas, filtrados,
+              Diseño y desarrollo de una App de recetas de comida que incluye: búsquedas, filtrados,
               ordenamientos y creación.
             </p>
-            <a href="#"><i class="bx bx-link-external"></i></a>
+            <div class="buttons">
+              <a href="https://github.com/MelHellrigl/PI-FOODS-28a"
+                ><i class="bx bxl-github"></i
+              ></a>
+              <a href="https://henry-food-amh.vercel.app/"><i class="bx bx-link-external"></i></a>
+            </div>
           </div>
         </div>
       </div>
@@ -127,27 +195,41 @@
       <div class="contact-text">
         <h2>Contacta<span>me</span>!</h2>
         <h4>Si tenés algún proyecto en mente</h4>
-        <p>Soy Diseñadora Web Full Stack</p>
+        <p>Soy Diseñadora Web Full Stack.</p>
+        <!-- <p>Misiones, Argentina</p> -->
         <div class="list">
-          <li><a href="#">+543764737418</a></li>
-          <li><a href="#">hellriglandreamelissa@gmail.com</a></li>
-          <li><a href="#">Espero tu contacto :)</a></li>
+          <li><a href="https://wa.me/543764737418">+543764737418</a></li>
+          <li>
+            <a href="https://mailto:hellriglandreamelissa@gmail.com"
+              >hellriglandreamelissa@gmail.com</a
+            >
+          </li>
+          <li><a href="">Misiones, Argentina</a></li>
         </div>
         <div class="contact-icons">
-          <a href="#"><i class="bx bxl-linkedin"></i></a>
-          <a href="#"><i class="bx bxl-github"></i></a>
-          <!-- <a href="#"></a>
-          <a href="#"></a> -->
+          <a href="https://www.linkedin.com/in/melissa-hellrigl-908441134/"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/MelHellrigl"><i class="bx bxl-github"></i></a>
+          <a href="https://wa.me/543764737418"><i class="bx bxl-whatsapp"></i></a>
+          <a href="https://mailto:hellriglandreamelissa@gmail.com"
+            ><i class="bx bx-envelope"></i
+          ></a>
         </div>
       </div>
       <div class="contact-form">
-        <form action="">
-          <input type="name" placeholder="Nombre y apellido" required />
-          <input type="email" placeholder="Email" required />
-          <input type="text" placeholder="Número mobil" required />
+        <form action="mailto:hellriglandreamelissa@gmail.com" method="POST" enctype="text/plain">
+          <input
+            type="name"
+            placeholder="Nombre y apellido"
+            required
+            id="Nombre"
+            name="Nombre y apellido "
+          />
+          <input type="email" placeholder="Email" required id="email" name="Correo electrónico " />
           <textarea
-            name=""
-            id=""
+            name="Mensaje "
+            id="msg"
             cols="35"
             rows="10"
             placeholder="Comentame en qué puedo ayudarte."
@@ -155,6 +237,16 @@
           ></textarea>
           <input type="submit" value="Enviar Mensaje" class="submit" required />
         </form>
+      </div>
+    </section>
+
+    <!-- SECCION FINAL - DISEÑO-->
+    <section class="end">
+      <div class="last-text">
+        <p>Copyright © 2022 | Hecho con ♥ by <span>Melissa Hellrigl</span>.</p>
+      </div>
+      <div class="top">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
       </div>
     </section>
 
