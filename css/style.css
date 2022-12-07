@@ -380,7 +380,7 @@ section {
 
 .portfolio-content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(400px, auto));
   align-items: center;
   gap: 2.5rem;
   margin-top: 5rem;
