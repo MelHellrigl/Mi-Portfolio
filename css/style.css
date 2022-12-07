@@ -14,7 +14,7 @@
   --text-color: #fff;
   --second-color: #ccc;
   --main-color: #5b8f8f;
-  --big-font: 5rem;
+  --big-font: 4rem;
   --h2-font: 3rem;
   --p-font: 1.1rem;
 }
@@ -99,11 +99,7 @@ section {
   width: 100%;
   /* background-image: url("../img/13107749_5137894.jpg"); */
   background: rgb(32, 32, 32);
-  background: linear-gradient(
-    0deg,
-    rgba(32, 32, 32, 0.969625350140056) 34%,
-    rgba(14, 14, 14, 1) 100%
-  );
+  background: linear-gradient(0deg, rgba(32, 32, 32, 0.969625350140056) 48%, rgba(0, 0, 0, 1) 100%);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -194,7 +190,8 @@ section {
 }
 
 .btn:hover {
-  transform: scale(0.9);
+  /* transform: scale(0.9); */
+  transform: scale(1.1) translateY(5px);
 }
 
 .btn2 {
@@ -204,7 +201,7 @@ section {
   font-size: 15px;
   font-weight: 600;
   color: var(--text-color);
-  /* margin-left: 35px; */
+  margin-left: 35px;
 }
 
 .btn2 span i {
@@ -233,7 +230,7 @@ section {
 }
 
 .about-img img {
-  max-width: 400px;
+  max-width: 350px;
   height: auto;
   width: 100%;
   border-radius: 8px;
@@ -531,7 +528,8 @@ section {
 }
 
 .contact-form form input,
-form textarea {
+form textarea,
+button {
   width: 100%;
   padding: 14px;
   background: var(--second-bg-color);
@@ -728,5 +726,8 @@ form textarea {
     background-color: #5b8f8f79;
     right: -80%;
     bottom: 50%;
+  }
+  .home-text p {
+    width: 100%;
   }
 }
