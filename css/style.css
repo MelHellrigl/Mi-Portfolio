@@ -707,7 +707,25 @@ button {
   .home-img img {
     right: -20%;
   }
+  .layer h5 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  .layer p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .layer i {
+    margin-top: 8px;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
 }
+
 @media (max-width: 442px) {
   .end {
     grid-template-columns: 1fr;
@@ -732,6 +750,22 @@ button {
   }
   .portfolio-content {
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  }
+  .layer h5 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .layer p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .layer i {
+    margin-top: 5px;
+    font-size: 18px;
+    width: 48px;
+    height: 48px;
   }
 }
 
