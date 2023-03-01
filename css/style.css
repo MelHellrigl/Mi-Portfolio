@@ -630,6 +630,10 @@ button {
     right: -20%;
     bottom: 15%;
   }
+  .portfolio-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+  }
 }
 
 @media (max-width: 920px) {
@@ -747,7 +751,7 @@ button {
     order: 2;
   }
   .home-img img {
-    right: -100%;
+    display: none;
   }
   .overlay {
     position: absolute;
