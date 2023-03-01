@@ -13,7 +13,9 @@
   --second-bg-color: #202020;
   --text-color: #fff;
   --second-color: #e0dfdf;
-  --main-color: #5b8f8f;
+  /* --main-color: #5b8f8f; */
+  --main-color: #448084;
+  /* --main-color: #1f8389; */
   --main-second-color: #a55d69;
   --big-font: 4rem;
   --h2-font: 3rem;
@@ -471,7 +473,7 @@ section {
   gap: 2.5rem;
 }
 
-.contact-text h4 {
+.contact-text h6 {
   columns: var(--text-color);
   margin: 18px 0;
   font-size: 20px;
