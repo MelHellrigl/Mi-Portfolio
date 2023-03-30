@@ -68,7 +68,8 @@ span {
 .navlist a {
   color: var(--second-color);
   font-size: 17px;
-  font-weight: 500;
+  /* font-weight: 500; */
+  font-weight: bold;
   margin: 0 20px;
   transform: all 0.45s ease;
   transition: 0.4s;
@@ -243,6 +244,12 @@ section {
   transform: scaleX(-1);
 }
 
+.about-text > a {
+  display: inline-flex;
+  /* align-items: center;
+    justify-content: center; */
+}
+
 .about-text h2 {
   font-size: var(--h2-font);
   line-height: 1;
@@ -309,7 +316,8 @@ section {
 
 .education-content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  /* grid-template-columns: repeat(auto-fit, minmax(250px, auto)); */
+  grid-template-columns: repeat(3, minmax(250px, auto));
   align-items: center;
   gap: 2.5rem;
   margin-top: 5rem;
@@ -337,8 +345,10 @@ section {
 }
 
 .logo {
-  width: 45px;
-  height: auto;
+  width: 70px;
+  height: 40px;
+  object-fit: cover;
+  /* height: auto; */
   margin-bottom: 20px;
 }
 
@@ -629,6 +639,10 @@ button {
   .overlay {
     right: -20%;
     bottom: 15%;
+  }
+  .education-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
   }
   .portfolio-content {
     display: grid;
